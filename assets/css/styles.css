@@ -430,6 +430,7 @@ ul {
        HOME
     ==============
 */
+
 .home-padding {
   padding: 180px 0; }
 
@@ -578,6 +579,7 @@ ul {
        ABOUT
     ==============
 */
+
 .mh-about .mh-about-inner {
   padding-left: 50px; }
   .mh-about .mh-about-inner h2 {
@@ -1247,6 +1249,25 @@ ul {
     FOOTER
 =================
 */
+
+.mh-footer{
+  overflow: hidden;
+  position: relative;
+}
+.mh-footer-bg{
+  opacity: 0.3;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+  
+}
+.footer-content{
+  position: relative;
+}
+
+
 .mh-footer ::placeholder {
   opacity: 0.9; }
 .mh-footer-3 .mh-footer-address .mh-address-footer-item {
@@ -1298,6 +1319,11 @@ ul {
    COUNTER
 ===================
 */
+.counter-wrap{
+  background: url("../images/mh-counter.png");
+  background-attachment: fixed;
+}
+
 .section-bottom {
   padding: 100px;
   margin: 50px;
